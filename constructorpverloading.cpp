@@ -18,3 +18,8 @@ public:
 // constructor default
 mahasiswa::mahasiswa() {
 }
+
+// constructor hanya NIM
+mahasiswa::mahasiswa(int iNim) {
+    nim = iNim; // definisi hanya NIM
+}
