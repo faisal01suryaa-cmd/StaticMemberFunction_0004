@@ -14,3 +14,7 @@ public:
     mahasiswa(int iNim, string iNama);
     void cetak();
 };
+
+// constructor default
+mahasiswa::mahasiswa() {
+}
